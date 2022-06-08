@@ -1,0 +1,63 @@
+a{
+  color: #000;
+}
+.header-title {
+  height: 100px;
+  font-size: 3rem;
+  color: #000;
+  line-height: 100px;
+  white-space: nowrap;
+
+}
+.modal-container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex; 
+  }
+.modal-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);    
+    z-index: 100 ;
+  }
+  
+  .modal-wrapper {
+    background-color: #fff;
+    margin: auto;
+    position: relative;
+    z-index: 100 ; 
+    width: 800px;
+    
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .modal-body {
+    
+    text-align: center;
+   
+  }
+  .modal-control {
+  text-align: center;
+   
+  }
+  
+  .icon-btn {
+    margin-right: 10px;
+  }
+
+.form-modal{
+  overflow-y: auto;
+  max-height: 600px;
+}
+
+.icon-delete:hover {
+
+  color: #000;
+}
